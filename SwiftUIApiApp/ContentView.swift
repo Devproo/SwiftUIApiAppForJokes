@@ -12,7 +12,7 @@ struct Joke: Codable {
 }
 
 struct ContentView: View {
-    @State private var joke = ""
+    @State private var joke = "" // A state variable to store the joke
     
     var body: some View {
         VStack {
